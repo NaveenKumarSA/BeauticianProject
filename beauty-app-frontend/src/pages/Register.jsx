@@ -13,7 +13,7 @@ export default function Register() {
     e.preventDefault();
     console.log(import.meta.env.REGISTER_URL)
     try {
-      const response = await axios.post("http://localhost:5000/api/auth/register", {
+      const response = await axios.post("https://beauticianproject-api.onrender.com/api/auth/register", {
         name,
         email,
         password,
