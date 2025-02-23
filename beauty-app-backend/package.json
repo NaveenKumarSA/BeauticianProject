@@ -1,10 +1,13 @@
 {
   "name": "beauty-app-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon server.js"
+    "start": "nodemon server.js",
+    "preview": "vite preview",
+    "dev": "nodemon server.js",
+    "build": "echo 'No build needed for backend'"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +22,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.10.1",
     "stripe": "^17.6.0"
+  },
+  "devDependencies": {
+    "vite": "^6.1.1"
   }
 }
